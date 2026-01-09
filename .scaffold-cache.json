@@ -1,0 +1,1034 @@
+{
+  "version": 1,
+  "entries": {
+    "src/DgpSdk.php": {
+      "path": "src/DgpSdk.php",
+      "createdAt": "2026-01-02T02:01:26.365Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/DgpSdkServiceProvider.php": {
+      "path": "src/DgpSdkServiceProvider.php",
+      "createdAt": "2026-01-02T02:01:26.369Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Catalog/ServicesCatalogContract.php": {
+      "path": "src/Contracts/Catalog/ServicesCatalogContract.php",
+      "createdAt": "2026-01-02T02:01:26.371Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Orders/OrderCreateContract.php": {
+      "path": "src/Contracts/Orders/OrderCreateContract.php",
+      "createdAt": "2026-01-02T02:01:26.372Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Orders/OrderStatusContract.php": {
+      "path": "src/Contracts/Orders/OrderStatusContract.php",
+      "createdAt": "2026-01-02T02:01:26.373Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Orders/OrderCancelContract.php": {
+      "path": "src/Contracts/Orders/OrderCancelContract.php",
+      "createdAt": "2026-01-02T02:01:26.375Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Refill/OrderRefillContract.php": {
+      "path": "src/Contracts/Refill/OrderRefillContract.php",
+      "createdAt": "2026-01-02T02:01:26.376Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Refill/RefillStatusContract.php": {
+      "path": "src/Contracts/Refill/RefillStatusContract.php",
+      "createdAt": "2026-01-02T02:01:26.378Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Bulk/BulkOrderCreateContract.php": {
+      "path": "src/Contracts/Bulk/BulkOrderCreateContract.php",
+      "createdAt": "2026-01-02T02:01:26.381Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Bulk/BulkOrderStatusContract.php": {
+      "path": "src/Contracts/Bulk/BulkOrderStatusContract.php",
+      "createdAt": "2026-01-02T02:01:26.383Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Subscription/SubscriptionContract.php": {
+      "path": "src/Contracts/Subscription/SubscriptionContract.php",
+      "createdAt": "2026-01-02T02:01:26.384Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/DripFeed/DripFeedContract.php": {
+      "path": "src/Contracts/DripFeed/DripFeedContract.php",
+      "createdAt": "2026-01-02T02:01:26.386Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Infra/TransportContract.php": {
+      "path": "src/Contracts/Infra/TransportContract.php",
+      "createdAt": "2026-01-02T02:01:26.393Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Infra/AuthStrategyContract.php": {
+      "path": "src/Contracts/Infra/AuthStrategyContract.php",
+      "createdAt": "2026-01-02T02:01:26.394Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Infra/ErrorNormalizerContract.php": {
+      "path": "src/Contracts/Infra/ErrorNormalizerContract.php",
+      "createdAt": "2026-01-02T02:01:26.395Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Infra/RetryPolicyContract.php": {
+      "path": "src/Contracts/Infra/RetryPolicyContract.php",
+      "createdAt": "2026-01-02T02:01:26.397Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Infra/RateLimitPolicyContract.php": {
+      "path": "src/Contracts/Infra/RateLimitPolicyContract.php",
+      "createdAt": "2026-01-02T02:01:26.398Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Infra/IdempotencyContract.php": {
+      "path": "src/Contracts/Infra/IdempotencyContract.php",
+      "createdAt": "2026-01-02T02:01:26.399Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Discovery/CapabilitiesContract.php": {
+      "path": "src/Contracts/Discovery/CapabilitiesContract.php",
+      "createdAt": "2026-01-02T02:01:26.401Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Discovery/ServiceMapperContract.php": {
+      "path": "src/Contracts/Discovery/ServiceMapperContract.php",
+      "createdAt": "2026-01-02T02:01:26.403Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Ops/HealthCheckContract.php": {
+      "path": "src/Contracts/Ops/HealthCheckContract.php",
+      "createdAt": "2026-01-02T02:01:26.404Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Ops/AuditTrailContract.php": {
+      "path": "src/Contracts/Ops/AuditTrailContract.php",
+      "createdAt": "2026-01-02T02:01:26.405Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Ops/WebhookIngestContract.php": {
+      "path": "src/Contracts/Ops/WebhookIngestContract.php",
+      "createdAt": "2026-01-02T02:01:26.406Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Catalog/ListServicesRequest.php": {
+      "path": "src/Payloads/Requests/Catalog/ListServicesRequest.php",
+      "createdAt": "2026-01-02T02:01:26.409Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Orders/CreateOrderRequest.php": {
+      "path": "src/Payloads/Requests/Orders/CreateOrderRequest.php",
+      "createdAt": "2026-01-02T02:01:26.410Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Orders/GetOrderStatusRequest.php": {
+      "path": "src/Payloads/Requests/Orders/GetOrderStatusRequest.php",
+      "createdAt": "2026-01-02T02:01:26.415Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Orders/CancelOrderRequest.php": {
+      "path": "src/Payloads/Requests/Orders/CancelOrderRequest.php",
+      "createdAt": "2026-01-02T02:01:26.416Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Refill/CreateRefillRequest.php": {
+      "path": "src/Payloads/Requests/Refill/CreateRefillRequest.php",
+      "createdAt": "2026-01-02T02:01:26.417Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Refill/GetRefillStatusRequest.php": {
+      "path": "src/Payloads/Requests/Refill/GetRefillStatusRequest.php",
+      "createdAt": "2026-01-02T02:01:26.418Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Bulk/BulkCreateOrdersRequest.php": {
+      "path": "src/Payloads/Requests/Bulk/BulkCreateOrdersRequest.php",
+      "createdAt": "2026-01-02T02:01:26.420Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Bulk/BulkGetOrderStatusRequest.php": {
+      "path": "src/Payloads/Requests/Bulk/BulkGetOrderStatusRequest.php",
+      "createdAt": "2026-01-02T02:01:26.421Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Subscription/CreateSubscriptionRequest.php": {
+      "path": "src/Payloads/Requests/Subscription/CreateSubscriptionRequest.php",
+      "createdAt": "2026-01-02T02:01:26.423Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Subscription/GetSubscriptionStatusRequest.php": {
+      "path": "src/Payloads/Requests/Subscription/GetSubscriptionStatusRequest.php",
+      "createdAt": "2026-01-02T02:01:26.424Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Subscription/CancelSubscriptionRequest.php": {
+      "path": "src/Payloads/Requests/Subscription/CancelSubscriptionRequest.php",
+      "createdAt": "2026-01-02T02:01:26.425Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/DripFeed/CreateDripFeedRequest.php": {
+      "path": "src/Payloads/Requests/DripFeed/CreateDripFeedRequest.php",
+      "createdAt": "2026-01-02T02:01:26.426Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/DripFeed/GetDripFeedStatusRequest.php": {
+      "path": "src/Payloads/Requests/DripFeed/GetDripFeedStatusRequest.php",
+      "createdAt": "2026-01-02T02:01:26.427Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/DripFeed/CancelDripFeedRequest.php": {
+      "path": "src/Payloads/Requests/DripFeed/CancelDripFeedRequest.php",
+      "createdAt": "2026-01-02T02:01:26.429Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Infra/HttpRequestDto.php": {
+      "path": "src/Payloads/Requests/Infra/HttpRequestDto.php",
+      "createdAt": "2026-01-02T02:01:26.431Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Infra/AuthApplyRequest.php": {
+      "path": "src/Payloads/Requests/Infra/AuthApplyRequest.php",
+      "createdAt": "2026-01-02T02:01:26.432Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Infra/NormalizeErrorRequest.php": {
+      "path": "src/Payloads/Requests/Infra/NormalizeErrorRequest.php",
+      "createdAt": "2026-01-02T02:01:26.433Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Infra/RetryDecisionRequest.php": {
+      "path": "src/Payloads/Requests/Infra/RetryDecisionRequest.php",
+      "createdAt": "2026-01-02T02:01:26.434Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Infra/RateLimitHintRequest.php": {
+      "path": "src/Payloads/Requests/Infra/RateLimitHintRequest.php",
+      "createdAt": "2026-01-02T02:01:26.435Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Infra/MakeIdempotencyKeyRequest.php": {
+      "path": "src/Payloads/Requests/Infra/MakeIdempotencyKeyRequest.php",
+      "createdAt": "2026-01-02T02:01:26.436Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Discovery/GetCapabilitiesRequest.php": {
+      "path": "src/Payloads/Requests/Discovery/GetCapabilitiesRequest.php",
+      "createdAt": "2026-01-02T02:01:26.438Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Discovery/ResolveProviderServiceRequest.php": {
+      "path": "src/Payloads/Requests/Discovery/ResolveProviderServiceRequest.php",
+      "createdAt": "2026-01-02T02:01:26.440Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Ops/HealthCheckRequest.php": {
+      "path": "src/Payloads/Requests/Ops/HealthCheckRequest.php",
+      "createdAt": "2026-01-02T02:01:26.442Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Ops/AuditRecordRequest.php": {
+      "path": "src/Payloads/Requests/Ops/AuditRecordRequest.php",
+      "createdAt": "2026-01-02T02:01:26.443Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Ops/ParseWebhookRequest.php": {
+      "path": "src/Payloads/Requests/Ops/ParseWebhookRequest.php",
+      "createdAt": "2026-01-02T02:01:26.447Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Catalog/ListServicesResponse.php": {
+      "path": "src/Payloads/Responses/Catalog/ListServicesResponse.php",
+      "createdAt": "2026-01-02T02:01:26.449Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Orders/CreateOrderResponse.php": {
+      "path": "src/Payloads/Responses/Orders/CreateOrderResponse.php",
+      "createdAt": "2026-01-02T02:01:26.451Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Orders/GetOrderStatusResponse.php": {
+      "path": "src/Payloads/Responses/Orders/GetOrderStatusResponse.php",
+      "createdAt": "2026-01-02T02:01:26.452Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Orders/CancelOrderResponse.php": {
+      "path": "src/Payloads/Responses/Orders/CancelOrderResponse.php",
+      "createdAt": "2026-01-02T02:01:26.453Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Refill/CreateRefillResponse.php": {
+      "path": "src/Payloads/Responses/Refill/CreateRefillResponse.php",
+      "createdAt": "2026-01-02T02:01:26.455Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Refill/GetRefillStatusResponse.php": {
+      "path": "src/Payloads/Responses/Refill/GetRefillStatusResponse.php",
+      "createdAt": "2026-01-02T02:01:26.456Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Bulk/BulkCreateOrdersResponse.php": {
+      "path": "src/Payloads/Responses/Bulk/BulkCreateOrdersResponse.php",
+      "createdAt": "2026-01-02T02:01:26.458Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Bulk/BulkGetOrderStatusResponse.php": {
+      "path": "src/Payloads/Responses/Bulk/BulkGetOrderStatusResponse.php",
+      "createdAt": "2026-01-02T02:01:26.459Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Subscription/CreateSubscriptionResponse.php": {
+      "path": "src/Payloads/Responses/Subscription/CreateSubscriptionResponse.php",
+      "createdAt": "2026-01-02T02:01:26.460Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Subscription/GetSubscriptionStatusResponse.php": {
+      "path": "src/Payloads/Responses/Subscription/GetSubscriptionStatusResponse.php",
+      "createdAt": "2026-01-02T02:01:26.462Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Subscription/CancelSubscriptionResponse.php": {
+      "path": "src/Payloads/Responses/Subscription/CancelSubscriptionResponse.php",
+      "createdAt": "2026-01-02T02:01:26.463Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/DripFeed/CreateDripFeedResponse.php": {
+      "path": "src/Payloads/Responses/DripFeed/CreateDripFeedResponse.php",
+      "createdAt": "2026-01-02T02:01:26.464Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/DripFeed/GetDripFeedStatusResponse.php": {
+      "path": "src/Payloads/Responses/DripFeed/GetDripFeedStatusResponse.php",
+      "createdAt": "2026-01-02T02:01:26.466Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/DripFeed/CancelDripFeedResponse.php": {
+      "path": "src/Payloads/Responses/DripFeed/CancelDripFeedResponse.php",
+      "createdAt": "2026-01-02T02:01:26.467Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Infra/HttpResponseDto.php": {
+      "path": "src/Payloads/Responses/Infra/HttpResponseDto.php",
+      "createdAt": "2026-01-02T02:01:26.469Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Infra/AuthApplyResponse.php": {
+      "path": "src/Payloads/Responses/Infra/AuthApplyResponse.php",
+      "createdAt": "2026-01-02T02:01:26.470Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Infra/NormalizeErrorResponse.php": {
+      "path": "src/Payloads/Responses/Infra/NormalizeErrorResponse.php",
+      "createdAt": "2026-01-02T02:01:26.471Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Infra/RetryDecisionResponse.php": {
+      "path": "src/Payloads/Responses/Infra/RetryDecisionResponse.php",
+      "createdAt": "2026-01-02T02:01:26.472Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Infra/RateLimitHintResponse.php": {
+      "path": "src/Payloads/Responses/Infra/RateLimitHintResponse.php",
+      "createdAt": "2026-01-02T02:01:26.473Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Infra/MakeIdempotencyKeyResponse.php": {
+      "path": "src/Payloads/Responses/Infra/MakeIdempotencyKeyResponse.php",
+      "createdAt": "2026-01-02T02:01:26.475Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Discovery/GetCapabilitiesResponse.php": {
+      "path": "src/Payloads/Responses/Discovery/GetCapabilitiesResponse.php",
+      "createdAt": "2026-01-02T02:01:26.478Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Discovery/ResolveProviderServiceResponse.php": {
+      "path": "src/Payloads/Responses/Discovery/ResolveProviderServiceResponse.php",
+      "createdAt": "2026-01-02T02:01:26.482Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Ops/HealthCheckResponse.php": {
+      "path": "src/Payloads/Responses/Ops/HealthCheckResponse.php",
+      "createdAt": "2026-01-02T02:01:26.484Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Ops/AuditRecordResponse.php": {
+      "path": "src/Payloads/Responses/Ops/AuditRecordResponse.php",
+      "createdAt": "2026-01-02T02:01:26.485Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Ops/ParseWebhookResponse.php": {
+      "path": "src/Payloads/Responses/Ops/ParseWebhookResponse.php",
+      "createdAt": "2026-01-02T02:01:26.486Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Money.php": {
+      "path": "src/Types/Money.php",
+      "createdAt": "2026-01-02T02:01:26.488Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Currency.php": {
+      "path": "src/Types/Currency.php",
+      "createdAt": "2026-01-02T02:01:26.489Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Service/ServiceDefinition.php": {
+      "path": "src/Types/Service/ServiceDefinition.php",
+      "createdAt": "2026-01-02T02:01:26.491Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Service/ServiceCategory.php": {
+      "path": "src/Types/Service/ServiceCategory.php",
+      "createdAt": "2026-01-02T02:01:26.492Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Service/ServiceTag.php": {
+      "path": "src/Types/Service/ServiceTag.php",
+      "createdAt": "2026-01-02T02:01:26.493Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Service/ServiceInputSchema.php": {
+      "path": "src/Types/Service/ServiceInputSchema.php",
+      "createdAt": "2026-01-02T02:01:26.494Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Service/ServiceField.php": {
+      "path": "src/Types/Service/ServiceField.php",
+      "createdAt": "2026-01-02T02:01:26.496Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Service/ServiceFieldRule.php": {
+      "path": "src/Types/Service/ServiceFieldRule.php",
+      "createdAt": "2026-01-02T02:01:26.497Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Orders/OrderRef.php": {
+      "path": "src/Types/Orders/OrderRef.php",
+      "createdAt": "2026-01-02T02:01:26.499Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Orders/OrderStatus.php": {
+      "path": "src/Types/Orders/OrderStatus.php",
+      "createdAt": "2026-01-02T02:01:26.500Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Orders/OrderStatusCode.php": {
+      "path": "src/Types/Orders/OrderStatusCode.php",
+      "createdAt": "2026-01-02T02:01:26.501Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Refill/RefillRef.php": {
+      "path": "src/Types/Refill/RefillRef.php",
+      "createdAt": "2026-01-02T02:01:26.502Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Refill/RefillStatus.php": {
+      "path": "src/Types/Refill/RefillStatus.php",
+      "createdAt": "2026-01-02T02:01:26.503Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Refill/RefillStatusCode.php": {
+      "path": "src/Types/Refill/RefillStatusCode.php",
+      "createdAt": "2026-01-02T02:01:26.504Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Subscription/SubscriptionRef.php": {
+      "path": "src/Types/Subscription/SubscriptionRef.php",
+      "createdAt": "2026-01-02T02:01:26.505Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Subscription/SubscriptionStatus.php": {
+      "path": "src/Types/Subscription/SubscriptionStatus.php",
+      "createdAt": "2026-01-02T02:01:26.507Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Subscription/SubscriptionStatusCode.php": {
+      "path": "src/Types/Subscription/SubscriptionStatusCode.php",
+      "createdAt": "2026-01-02T02:01:26.510Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/DripFeed/DripFeedRef.php": {
+      "path": "src/Types/DripFeed/DripFeedRef.php",
+      "createdAt": "2026-01-02T02:01:26.512Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/DripFeed/DripFeedStatus.php": {
+      "path": "src/Types/DripFeed/DripFeedStatus.php",
+      "createdAt": "2026-01-02T02:01:26.514Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/DripFeed/DripFeedStatusCode.php": {
+      "path": "src/Types/DripFeed/DripFeedStatusCode.php",
+      "createdAt": "2026-01-02T02:01:26.516Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Infra/CapabilityMap.php": {
+      "path": "src/Types/Infra/CapabilityMap.php",
+      "createdAt": "2026-01-02T02:01:26.517Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Infra/ProviderRateLimit.php": {
+      "path": "src/Types/Infra/ProviderRateLimit.php",
+      "createdAt": "2026-01-02T02:01:26.519Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Infra/ProviderRateLimitWindow.php": {
+      "path": "src/Types/Infra/ProviderRateLimitWindow.php",
+      "createdAt": "2026-01-02T02:01:26.520Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Infra/IdempotencyKey.php": {
+      "path": "src/Types/Infra/IdempotencyKey.php",
+      "createdAt": "2026-01-02T02:01:26.521Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Infra/HttpMethod.php": {
+      "path": "src/Types/Infra/HttpMethod.php",
+      "createdAt": "2026-01-02T02:01:26.522Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Ops/HealthState.php": {
+      "path": "src/Types/Ops/HealthState.php",
+      "createdAt": "2026-01-02T02:01:26.525Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Ops/AuditRecord.php": {
+      "path": "src/Types/Ops/AuditRecord.php",
+      "createdAt": "2026-01-02T02:01:26.526Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Ops/WebhookEvent.php": {
+      "path": "src/Types/Ops/WebhookEvent.php",
+      "createdAt": "2026-01-02T02:01:26.526Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Ops/WebhookEventType.php": {
+      "path": "src/Types/Ops/WebhookEventType.php",
+      "createdAt": "2026-01-02T02:01:26.528Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Support/Result.php": {
+      "path": "src/Support/Result.php",
+      "createdAt": "2026-01-02T02:01:26.530Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Support/DgpError.php": {
+      "path": "src/Support/DgpError.php",
+      "createdAt": "2026-01-02T02:01:26.531Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Support/DgpErrorCode.php": {
+      "path": "src/Support/DgpErrorCode.php",
+      "createdAt": "2026-01-02T02:01:26.532Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Support/Exceptions/DgpException.php": {
+      "path": "src/Support/Exceptions/DgpException.php",
+      "createdAt": "2026-01-02T02:01:26.534Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Support/Exceptions/TransportException.php": {
+      "path": "src/Support/Exceptions/TransportException.php",
+      "createdAt": "2026-01-02T02:01:26.534Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Support/Exceptions/AuthException.php": {
+      "path": "src/Support/Exceptions/AuthException.php",
+      "createdAt": "2026-01-02T02:01:26.535Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Support/Exceptions/ProviderException.php": {
+      "path": "src/Support/Exceptions/ProviderException.php",
+      "createdAt": "2026-01-02T02:01:26.536Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Support/Exceptions/RateLimitedException.php": {
+      "path": "src/Support/Exceptions/RateLimitedException.php",
+      "createdAt": "2026-01-02T02:01:26.537Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Support/Exceptions/ValidationException.php": {
+      "path": "src/Support/Exceptions/ValidationException.php",
+      "createdAt": "2026-01-02T02:01:26.539Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Support/Validation/PayloadValidator.php": {
+      "path": "src/Support/Validation/PayloadValidator.php",
+      "createdAt": "2026-01-02T02:01:26.541Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Support/Serialization/Arrayable.php": {
+      "path": "src/Support/Serialization/Arrayable.php",
+      "createdAt": "2026-01-02T02:01:26.543Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Support/Serialization/Normalizes.php": {
+      "path": "src/Support/Serialization/Normalizes.php",
+      "createdAt": "2026-01-02T02:01:26.544Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Support/Testing/FakeTransport.php": {
+      "path": "src/Support/Testing/FakeTransport.php",
+      "createdAt": "2026-01-02T02:01:26.548Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Support/Testing/FakeClock.php": {
+      "path": "src/Support/Testing/FakeClock.php",
+      "createdAt": "2026-01-02T02:01:26.549Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Driver/DriverRegistry.php": {
+      "path": "src/Driver/DriverRegistry.php",
+      "createdAt": "2026-01-02T02:07:29.858Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Driver/DriverResolver.php": {
+      "path": "src/Driver/DriverResolver.php",
+      "createdAt": "2026-01-02T02:07:29.860Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Driver/DriverManager.php": {
+      "path": "src/Driver/DriverManager.php",
+      "createdAt": "2026-01-02T02:07:29.862Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Driver/AbstractServiceDriver.php": {
+      "path": "src/Driver/AbstractServiceDriver.php",
+      "createdAt": "2026-01-02T02:07:29.863Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Driver/DriverContext.php": {
+      "path": "src/Driver/DriverContext.php",
+      "createdAt": "2026-01-02T04:12:21.524Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Catalog/ServiceInputSchemaContract.php": {
+      "path": "src/Contracts/Catalog/ServiceInputSchemaContract.php",
+      "createdAt": "2026-01-02T04:12:21.528Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Catalog/ServiceSchemaContract.php": {
+      "path": "src/Contracts/Catalog/ServiceSchemaContract.php",
+      "createdAt": "2026-01-02T04:12:21.530Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Balance/BalanceContract.php": {
+      "path": "src/Contracts/Balance/BalanceContract.php",
+      "createdAt": "2026-01-02T04:12:21.533Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Catalog/GetServiceInputSchemaRequest.php": {
+      "path": "src/Payloads/Requests/Catalog/GetServiceInputSchemaRequest.php",
+      "createdAt": "2026-01-02T04:12:21.542Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Catalog/GetServiceSchemaSnapshotRequest.php": {
+      "path": "src/Payloads/Requests/Catalog/GetServiceSchemaSnapshotRequest.php",
+      "createdAt": "2026-01-02T04:12:21.549Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Catalog/GetServiceSchemaForServiceRequest.php": {
+      "path": "src/Payloads/Requests/Catalog/GetServiceSchemaForServiceRequest.php",
+      "createdAt": "2026-01-02T04:12:21.552Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Balance/GetBalanceRequest.php": {
+      "path": "src/Payloads/Requests/Balance/GetBalanceRequest.php",
+      "createdAt": "2026-01-02T04:12:21.555Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Catalog/GetServiceInputSchemaResponse.php": {
+      "path": "src/Payloads/Responses/Catalog/GetServiceInputSchemaResponse.php",
+      "createdAt": "2026-01-02T04:12:21.563Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Catalog/GetServiceSchemaSnapshotResponse.php": {
+      "path": "src/Payloads/Responses/Catalog/GetServiceSchemaSnapshotResponse.php",
+      "createdAt": "2026-01-02T04:12:21.565Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Catalog/GetServiceSchemaForServiceResponse.php": {
+      "path": "src/Payloads/Responses/Catalog/GetServiceSchemaForServiceResponse.php",
+      "createdAt": "2026-01-02T04:12:21.568Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Balance/GetBalanceResponse.php": {
+      "path": "src/Payloads/Responses/Balance/GetBalanceResponse.php",
+      "createdAt": "2026-01-02T04:12:21.576Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Schema/ServiceProps.php": {
+      "path": "src/Types/Schema/ServiceProps.php",
+      "createdAt": "2026-01-02T04:12:21.601Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Schema/Tag.php": {
+      "path": "src/Types/Schema/Tag.php",
+      "createdAt": "2026-01-02T04:12:21.602Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Schema/Field.php": {
+      "path": "src/Types/Schema/Field.php",
+      "createdAt": "2026-01-02T04:12:21.604Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Schema/FieldOption.php": {
+      "path": "src/Types/Schema/FieldOption.php",
+      "createdAt": "2026-01-02T04:12:21.605Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Schema/ServiceFallback.php": {
+      "path": "src/Types/Schema/ServiceFallback.php",
+      "createdAt": "2026-01-02T04:12:21.606Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Schema/Ui/UiNode.php": {
+      "path": "src/Types/Schema/Ui/UiNode.php",
+      "createdAt": "2026-01-02T04:12:21.615Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Schema/Ui/UiString.php": {
+      "path": "src/Types/Schema/Ui/UiString.php",
+      "createdAt": "2026-01-02T04:12:21.623Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Schema/Ui/UiNumber.php": {
+      "path": "src/Types/Schema/Ui/UiNumber.php",
+      "createdAt": "2026-01-02T04:12:21.633Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Schema/Ui/UiBoolean.php": {
+      "path": "src/Types/Schema/Ui/UiBoolean.php",
+      "createdAt": "2026-01-02T04:12:21.636Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Schema/Ui/UiAnyOf.php": {
+      "path": "src/Types/Schema/Ui/UiAnyOf.php",
+      "createdAt": "2026-01-02T04:12:21.638Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Schema/Ui/UiArray.php": {
+      "path": "src/Types/Schema/Ui/UiArray.php",
+      "createdAt": "2026-01-02T04:12:21.676Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Schema/Ui/UiObject.php": {
+      "path": "src/Types/Schema/Ui/UiObject.php",
+      "createdAt": "2026-01-02T04:12:21.687Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Balance/ProviderBalance.php": {
+      "path": "src/Types/Balance/ProviderBalance.php",
+      "createdAt": "2026-01-02T04:12:21.699Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Support/Hydration/HydratesFromArray.php": {
+      "path": "src/Support/Hydration/HydratesFromArray.php",
+      "createdAt": "2026-01-02T04:12:21.752Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Support/Hydration/DtoHydrator.php": {
+      "path": "src/Support/Hydration/DtoHydrator.php",
+      "createdAt": "2026-01-02T04:12:21.764Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    }
+  }
+}

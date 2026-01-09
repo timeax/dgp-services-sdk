@@ -1,0 +1,20 @@
+{
+  "name": "timeax/dgp-services-sdk",
+  "description": "Digital Growth Platform (DGP) Services SDK: capability-based contracts and typed request/response DTOs for Laravel-first service provider plugins (e.g., JustAnotherPanel), covering catalog, orders, status, refill, bulk ops, discovery, infra (auth/transport/retry/rate-limit/idempotency), and ops (health/audit/webhooks).",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "David",
+      "email": "timmyokpako@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "DgpSdk\\": "src/"
+    }
+  }
+}

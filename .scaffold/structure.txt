@@ -1,0 +1,248 @@
+src/
+  DgpSdk.php
+  DgpSdkServiceProvider.php
+
+  Driver/
+    DriverContext.php // runtime context: config + services (transport/logger/cache/clock)
+    DriverRegistry.php // registered driver factories + metadata
+    DriverResolver.php // resolve driver instance by key (registry + context)
+    DriverManager.php // boundary wrapper: resolve + capability helpers + Result wrapping
+    AbstractServiceDriver.php // base class: core helpers + HealthCheck default
+
+  Contracts/
+    Catalog/
+      ServicesCatalogContract.php // CORE (MUST): raw service catalog (Lane A)
+      ServiceInputSchemaContract.php // OPTIONAL: minimal per-service input schema (Host still normalizes)
+      ServiceSchemaContract.php // OPTIONAL/ADVANCED: pre-normalized ServiceProps (Lane B fast lane)
+
+    Orders/
+      OrderCreateContract.php // CORE (MUST): place order
+      OrderStatusContract.php // CORE (MUST): status lookup
+      OrderCancelContract.php // OPTIONAL: cancel
+
+    Balance/
+      BalanceContract.php // CORE (MUST for panel-like): provider balance
+
+    Refill/
+      OrderRefillContract.php // OPTIONAL: create refill
+      RefillStatusContract.php // OPTIONAL: refill status
+
+    Bulk/
+      BulkOrderCreateContract.php // OPTIONAL: bulk create
+      BulkOrderStatusContract.php // OPTIONAL: bulk status
+
+    Subscription/
+      SubscriptionContract.php // OPTIONAL: subscription lifecycle
+
+    DripFeed/
+      DripFeedContract.php // OPTIONAL: dripfeed lifecycle
+
+    Infra/
+      TransportContract.php // HOST-PROVIDED transport interface (Laravel adapter lives in host)
+      AuthStrategyContract.php // OPTIONAL: driver-specific auth strategy
+      ErrorNormalizerContract.php // CORE (MUST): normalize provider errors into DgpError
+      RetryPolicyContract.php // OPTIONAL: retry/backoff decisions
+      RateLimitPolicyContract.php // OPTIONAL: rate limit hints/windows
+      IdempotencyContract.php // OPTIONAL: idempotency rules
+
+    Discovery/
+      CapabilitiesContract.php // CORE (MUST): declare supported capabilities
+      ServiceMapperContract.php // OPTIONAL: host↔provider mapping helper
+
+    Ops/
+      HealthCheckContract.php // CORE (MUST via AbstractServiceDriver): health/ping
+      AuditTrailContract.php // OPTIONAL: audit hooks
+      WebhookIngestContract.php // OPTIONAL: webhook parsing/verification
+
+  Payloads/
+    Requests/
+      Catalog/
+        ListServicesRequest.php
+        GetServiceInputSchemaRequest.php
+        GetServiceSchemaSnapshotRequest.php
+        GetServiceSchemaForServiceRequest.php
+
+      Orders/
+        CreateOrderRequest.php
+        GetOrderStatusRequest.php
+        CancelOrderRequest.php
+
+      Balance/
+        GetBalanceRequest.php
+
+      Refill/
+        CreateRefillRequest.php
+        GetRefillStatusRequest.php
+
+      Bulk/
+        BulkCreateOrdersRequest.php
+        BulkGetOrderStatusRequest.php
+
+      Subscription/
+        CreateSubscriptionRequest.php
+        GetSubscriptionStatusRequest.php
+        CancelSubscriptionRequest.php
+
+      DripFeed/
+        CreateDripFeedRequest.php
+        GetDripFeedStatusRequest.php
+        CancelDripFeedRequest.php
+
+      Infra/
+        HttpRequestDto.php
+        AuthApplyRequest.php
+        NormalizeErrorRequest.php
+        RetryDecisionRequest.php
+        RateLimitHintRequest.php
+        MakeIdempotencyKeyRequest.php
+
+      Discovery/
+        GetCapabilitiesRequest.php
+        ResolveProviderServiceRequest.php
+
+      Ops/
+        HealthCheckRequest.php
+        AuditRecordRequest.php
+        ParseWebhookRequest.php
+
+    Responses/
+      Catalog/
+        ListServicesResponse.php
+        GetServiceInputSchemaResponse.php
+        GetServiceSchemaSnapshotResponse.php
+        GetServiceSchemaForServiceResponse.php
+
+      Orders/
+        CreateOrderResponse.php
+        GetOrderStatusResponse.php
+        CancelOrderResponse.php
+
+      Balance/
+        GetBalanceResponse.php
+
+      Refill/
+        CreateRefillResponse.php
+        GetRefillStatusResponse.php
+
+      Bulk/
+        BulkCreateOrdersResponse.php
+        BulkGetOrderStatusResponse.php
+
+      Subscription/
+        CreateSubscriptionResponse.php
+        GetSubscriptionStatusResponse.php
+        CancelSubscriptionResponse.php
+
+      DripFeed/
+        CreateDripFeedResponse.php
+        GetDripFeedStatusResponse.php
+        CancelDripFeedResponse.php
+
+      Infra/
+        HttpResponseDto.php
+        AuthApplyResponse.php
+        NormalizeErrorResponse.php
+        RetryDecisionResponse.php
+        RateLimitHintResponse.php
+        MakeIdempotencyKeyResponse.php
+
+      Discovery/
+        GetCapabilitiesResponse.php
+        ResolveProviderServiceResponse.php
+
+      Ops/
+        HealthCheckResponse.php
+        AuditRecordResponse.php
+        ParseWebhookResponse.php
+
+  Types/
+    Money.php
+    Currency.php
+
+    Service/
+      ServiceDefinition.php // raw baseline service item (strict core + meta bag)
+      ServiceCategory.php
+      ServiceTag.php
+      ServiceInputSchema.php // minimal per-service schema (Lane A helper)
+      ServiceField.php
+      ServiceFieldRule.php
+
+    Schema/ // TS-parity UI schema (Lane B: ServiceProps)
+      ServiceProps.php
+      Tag.php
+      Field.php
+      FieldOption.php
+      ServiceFallback.php
+
+      Ui/
+        UiNode.php
+        UiString.php
+        UiNumber.php
+        UiBoolean.php
+        UiAnyOf.php
+        UiArray.php
+        UiObject.php
+
+    Orders/
+      OrderRef.php
+      OrderStatus.php
+      OrderStatusCode.php
+
+    Balance/
+      ProviderBalance.php
+
+    Refill/
+      RefillRef.php
+      RefillStatus.php
+      RefillStatusCode.php
+
+    Subscription/
+      SubscriptionRef.php
+      SubscriptionStatus.php
+      SubscriptionStatusCode.php
+
+    DripFeed/
+      DripFeedRef.php
+      DripFeedStatus.php
+      DripFeedStatusCode.php
+
+    Infra/
+      CapabilityMap.php
+      ProviderRateLimit.php
+      ProviderRateLimitWindow.php
+      IdempotencyKey.php
+      HttpMethod.php
+
+    Ops/
+      HealthState.php
+      AuditRecord.php
+      WebhookEvent.php
+      WebhookEventType.php
+
+  Support/
+    Result.php // Result<T>: success/failure wrapper
+    DgpError.php
+    DgpErrorCode.php
+
+    Exceptions/
+      DgpException.php
+      TransportException.php
+      AuthException.php
+      ProviderException.php
+      RateLimitedException.php
+      ValidationException.php
+
+    Hydration/
+      HydratesFromArray.php // trait for DTO ::fromArray(...)
+      DtoHydrator.php // optional helper for host/controller DTO creation
+
+    Validation/
+      PayloadValidator.php // pre-flight validation + schema verification
+
+    Serialization/
+      Arrayable.php
+      Normalizes.php
+
+    Testing/
+      FakeTransport.php
+      FakeClock.php
