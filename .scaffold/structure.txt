@@ -11,6 +11,7 @@ src/
 
   Contracts/
     Catalog/
+      OperationInputSchemaContract.php
       ServicesCatalogContract.php // CORE (MUST): raw service catalog (Lane A)
       ServiceInputSchemaContract.php // OPTIONAL: minimal per-service input schema (Host still normalizes)
       ServiceSchemaContract.php // OPTIONAL/ADVANCED: pre-normalized ServiceProps (Lane B fast lane)
@@ -61,6 +62,7 @@ src/
         GetServiceInputSchemaRequest.php
         GetServiceSchemaSnapshotRequest.php
         GetServiceSchemaForServiceRequest.php
+        GetOperationInputSchemaRequest.php
 
       Orders/
         CreateOrderRequest.php
@@ -111,6 +113,7 @@ src/
         GetServiceInputSchemaResponse.php
         GetServiceSchemaSnapshotResponse.php
         GetServiceSchemaForServiceResponse.php
+        GetOperationInputSchemaResponse.php
 
       Orders/
         CreateOrderResponse.php
@@ -159,6 +162,10 @@ src/
     Money.php
     Currency.php
 
+    Bulk/
+      BulkCreateOrderResult.php
+      BulkOrderStatusResult.php
+
     Service/
       ServiceDefinition.php // raw baseline service item (strict core + meta bag)
       ServiceCategory.php
@@ -166,6 +173,7 @@ src/
       ServiceInputSchema.php // minimal per-service schema (Lane A helper)
       ServiceField.php
       ServiceFieldRule.php
+      OperationKey.php
 
     Schema/ // TS-parity UI schema (Lane B: ServiceProps)
       ServiceProps.php
@@ -173,6 +181,8 @@ src/
       Field.php
       FieldOption.php
       ServiceFallback.php
+      FlagKey.php
+      ConstraintOverride.php
 
       Ui/
         UiNode.php

@@ -1029,6 +1029,62 @@
       "sizeAtCreate": 0,
       "groupName": "default",
       "groupRoot": "."
+    },
+    "src/Types/Bulk/BulkCreateOrderResult.php": {
+      "path": "src/Types/Bulk/BulkCreateOrderResult.php",
+      "createdAt": "2026-01-10T05:18:03.430Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Bulk/BulkOrderStatusResult.php": {
+      "path": "src/Types/Bulk/BulkOrderStatusResult.php",
+      "createdAt": "2026-01-10T05:18:03.433Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Schema/FlagKey.php": {
+      "path": "src/Types/Schema/FlagKey.php",
+      "createdAt": "2026-01-10T05:22:20.213Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Schema/ConstraintOverride.php": {
+      "path": "src/Types/Schema/ConstraintOverride.php",
+      "createdAt": "2026-01-10T05:23:21.274Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Catalog/OperationInputSchemaContract.php": {
+      "path": "src/Contracts/Catalog/OperationInputSchemaContract.php",
+      "createdAt": "2026-01-10T07:34:08.746Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Catalog/GetOperationInputSchemaRequest.php": {
+      "path": "src/Payloads/Requests/Catalog/GetOperationInputSchemaRequest.php",
+      "createdAt": "2026-01-10T07:34:08.754Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Catalog/GetOperationInputSchemaResponse.php": {
+      "path": "src/Payloads/Responses/Catalog/GetOperationInputSchemaResponse.php",
+      "createdAt": "2026-01-10T07:34:08.762Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Service/OperationKey.php": {
+      "path": "src/Types/Service/OperationKey.php",
+      "createdAt": "2026-01-10T07:34:08.772Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
     }
   }
 }
