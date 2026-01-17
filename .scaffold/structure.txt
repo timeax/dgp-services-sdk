@@ -47,8 +47,8 @@ src/
       IdempotencyContract.php // OPTIONAL: idempotency rules
 
     Discovery/
-      CapabilitiesContract.php // CORE (MUST): declare supported capabilities
       ServiceMapperContract.php // OPTIONAL: host↔provider mapping helper
+      DriverManifestContract.php
 
     Ops/
       HealthCheckContract.php // CORE (MUST via AbstractServiceDriver): health/ping
@@ -56,6 +56,8 @@ src/
       WebhookIngestContract.php // OPTIONAL: webhook parsing/verification
 
   Payloads/
+    Common/
+      ProviderConfig.php
     Requests/
       Catalog/
         ListServicesRequest.php
@@ -99,9 +101,7 @@ src/
         MakeIdempotencyKeyRequest.php
 
       Discovery/
-        GetCapabilitiesRequest.php
         ResolveProviderServiceRequest.php
-
       Ops/
         HealthCheckRequest.php
         AuditRecordRequest.php
@@ -150,9 +150,8 @@ src/
         MakeIdempotencyKeyResponse.php
 
       Discovery/
-        GetCapabilitiesResponse.php
         ResolveProviderServiceResponse.php
-
+        GetDriverManifestResponse.php
       Ops/
         HealthCheckResponse.php
         AuditRecordResponse.php
@@ -162,6 +161,12 @@ src/
     Money.php
     Currency.php
 
+    Driver/
+      DriverManifest.php // metadata + feature flags + optional config schema
+      ProviderInfo.php // name/site/docs/support (optional)
+      DriverConfigSchema.php // optional: config fields for runtime validation/UI
+      ConfigField.php
+      ConfigFieldOption.php
     Bulk/
       BulkCreateOrderResult.php
       BulkOrderStatusResult.php

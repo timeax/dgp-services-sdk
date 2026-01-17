@@ -3,6 +3,7 @@ declare(strict_types=1);
 
 namespace Dgp\Sdk\Contracts\Discovery;
 
+use Dgp\Sdk\Payloads\Responses\Discovery\ResolveProviderServiceResponse;
 use Dgp\Sdk\Support\Result;
 use Dgp\Sdk\Payloads\Requests\Discovery\ResolveProviderServiceRequest;
 
@@ -16,7 +17,7 @@ interface ServiceMapperContract
      * - provider uses composite ids/variants
      * - host wants driver-owned mapping rules
      *
-     * @return Result<\Dgp\Sdk\Payloads\Responses\Discovery\ResolveProviderServiceResponse>
+     * @return Result<ResolveProviderServiceResponse>
      */
     public function resolveProviderService(ResolveProviderServiceRequest $request): Result;
 }

@@ -5,14 +5,14 @@ namespace Dgp\Sdk\Payloads\Requests\Discovery;
 
 use JsonSerializable;
 
-final class ResolveProviderServiceRequest implements JsonSerializable
+final readonly class ResolveProviderServiceRequest implements JsonSerializable
 {
     /**
      * @param array<string,mixed>|null $context
      */
     public function __construct(
-        public readonly string|int $internalServiceId,
-        public readonly ?array $context = null,
+        public string|int $internalServiceId,
+        public ?array     $context = null,
     ) {}
 
     public function jsonSerialize(): array

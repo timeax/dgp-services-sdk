@@ -127,13 +127,6 @@
       "groupName": "default",
       "groupRoot": "."
     },
-    "src/Contracts/Discovery/CapabilitiesContract.php": {
-      "path": "src/Contracts/Discovery/CapabilitiesContract.php",
-      "createdAt": "2026-01-02T02:01:26.401Z",
-      "sizeAtCreate": 0,
-      "groupName": "default",
-      "groupRoot": "."
-    },
     "src/Contracts/Discovery/ServiceMapperContract.php": {
       "path": "src/Contracts/Discovery/ServiceMapperContract.php",
       "createdAt": "2026-01-02T02:01:26.403Z",
@@ -302,13 +295,6 @@
       "groupName": "default",
       "groupRoot": "."
     },
-    "src/Payloads/Requests/Discovery/GetCapabilitiesRequest.php": {
-      "path": "src/Payloads/Requests/Discovery/GetCapabilitiesRequest.php",
-      "createdAt": "2026-01-02T02:01:26.438Z",
-      "sizeAtCreate": 0,
-      "groupName": "default",
-      "groupRoot": "."
-    },
     "src/Payloads/Requests/Discovery/ResolveProviderServiceRequest.php": {
       "path": "src/Payloads/Requests/Discovery/ResolveProviderServiceRequest.php",
       "createdAt": "2026-01-02T02:01:26.440Z",
@@ -473,13 +459,6 @@
     "src/Payloads/Responses/Infra/MakeIdempotencyKeyResponse.php": {
       "path": "src/Payloads/Responses/Infra/MakeIdempotencyKeyResponse.php",
       "createdAt": "2026-01-02T02:01:26.475Z",
-      "sizeAtCreate": 0,
-      "groupName": "default",
-      "groupRoot": "."
-    },
-    "src/Payloads/Responses/Discovery/GetCapabilitiesResponse.php": {
-      "path": "src/Payloads/Responses/Discovery/GetCapabilitiesResponse.php",
-      "createdAt": "2026-01-02T02:01:26.478Z",
       "sizeAtCreate": 0,
       "groupName": "default",
       "groupRoot": "."
@@ -1068,6 +1047,62 @@
     "src/Types/Service/OperationKey.php": {
       "path": "src/Types/Service/OperationKey.php",
       "createdAt": "2026-01-10T07:34:08.772Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Discovery/DriverManifestContract.php": {
+      "path": "src/Contracts/Discovery/DriverManifestContract.php",
+      "createdAt": "2026-01-17T17:19:59.713Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Discovery/GetDriverManifestResponse.php": {
+      "path": "src/Payloads/Responses/Discovery/GetDriverManifestResponse.php",
+      "createdAt": "2026-01-17T17:23:02.084Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Driver/DriverManifest.php": {
+      "path": "src/Types/Driver/DriverManifest.php",
+      "createdAt": "2026-01-17T17:23:02.092Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Driver/ProviderInfo.php": {
+      "path": "src/Types/Driver/ProviderInfo.php",
+      "createdAt": "2026-01-17T17:23:02.093Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Driver/DriverConfigSchema.php": {
+      "path": "src/Types/Driver/DriverConfigSchema.php",
+      "createdAt": "2026-01-17T17:23:02.094Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Driver/ConfigField.php": {
+      "path": "src/Types/Driver/ConfigField.php",
+      "createdAt": "2026-01-17T17:23:02.098Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Driver/ConfigFieldOption.php": {
+      "path": "src/Types/Driver/ConfigFieldOption.php",
+      "createdAt": "2026-01-17T17:23:02.100Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Common/ProviderConfig.php": {
+      "path": "src/Payloads/Common/ProviderConfig.php",
+      "createdAt": "2026-01-17T17:37:24.826Z",
       "sizeAtCreate": 0,
       "groupName": "default",
       "groupRoot": "."
