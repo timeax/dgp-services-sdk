@@ -168,8 +168,6 @@ src/
 
     Service/
       ServiceDefinition.php // raw baseline service item (strict core + meta bag)
-      ServiceCategory.php
-      ServiceTag.php
       ServiceInputSchema.php // minimal per-service schema (Lane A helper)
       ServiceField.php
       ServiceFieldRule.php

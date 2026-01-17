@@ -533,20 +533,6 @@
       "groupName": "default",
       "groupRoot": "."
     },
-    "src/Types/Service/ServiceCategory.php": {
-      "path": "src/Types/Service/ServiceCategory.php",
-      "createdAt": "2026-01-02T02:01:26.492Z",
-      "sizeAtCreate": 0,
-      "groupName": "default",
-      "groupRoot": "."
-    },
-    "src/Types/Service/ServiceTag.php": {
-      "path": "src/Types/Service/ServiceTag.php",
-      "createdAt": "2026-01-02T02:01:26.493Z",
-      "sizeAtCreate": 0,
-      "groupName": "default",
-      "groupRoot": "."
-    },
     "src/Types/Service/ServiceInputSchema.php": {
       "path": "src/Types/Service/ServiceInputSchema.php",
       "createdAt": "2026-01-02T02:01:26.494Z",

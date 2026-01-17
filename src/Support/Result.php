@@ -4,6 +4,7 @@ declare(strict_types=1);
 namespace Dgp\Sdk\Support;
 
 use JsonSerializable;
+use RuntimeException;
 use Throwable;
 use Dgp\Sdk\Support\Serialization\Arrayable;
 
@@ -90,7 +91,7 @@ final readonly class Result implements Arrayable, JsonSerializable
     }
 
     /**
-     * @throws \RuntimeException
+     * @throws RuntimeException
      * @return T
      */
     public function unwrap(): mixed
@@ -100,7 +101,7 @@ final readonly class Result implements Arrayable, JsonSerializable
         }
 
         $err = $this->error;
-        throw new \RuntimeException($err ? ($err->code->value . ': ' . $err->message) : 'Result failure');
+        throw new RuntimeException($err ? ($err->code->value . ': ' . $err->message) : 'Result failure');
     }
 
     /** @return array<string, mixed> */
