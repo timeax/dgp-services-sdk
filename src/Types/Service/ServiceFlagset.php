@@ -15,9 +15,13 @@ final readonly class ServiceFlagset implements Arrayable, JsonSerializable
     /**
      * @param array<string,ServiceFlag> $flags Map: flagId => ServiceFlag
      */
-    public function __construct(array $flags = [])
+    public function __construct(array $flags = [], bool $withDefaults = false)
     {
         $normalized = [];
+
+        if($withDefaults) {
+            $flags = array_merge($flags, self::defaults()->flags);
+        }
 
         foreach ($flags as $flag) {
             if (!$flag instanceof ServiceFlag) {
@@ -31,27 +35,32 @@ final readonly class ServiceFlagset implements Arrayable, JsonSerializable
         $this->flags = $normalized;
     }
 
-    public static function defaults(bool $enabledDefault = false): self
+    public function withDefaults(bool $refill = false, bool $cancel = false, bool $dripfeed = false, bool $contract = false): self
+    {
+        return self::defaults($refill, $cancel, $dripfeed, $contract);
+    }
+
+    public static function defaults(bool $refill = false, bool $cancel = false, bool $dripfeed = false, bool $contract = false): self
     {
         return new self([
             new ServiceFlag(
                 id: 'refill',
-                enabled: $enabledDefault,
+                enabled: $refill,
                 description: 'Service supports refill after completion (if provider allows).',
             ),
             new ServiceFlag(
                 id: 'cancel',
-                enabled: $enabledDefault,
+                enabled: $cancel,
                 description: 'Service supports cancellation (if provider allows).',
             ),
             new ServiceFlag(
                 id: 'dripfeed',
-                enabled: $enabledDefault,
+                enabled: $dripfeed,
                 description: 'Service supports drip-feed delivery (if provider allows).',
             ),
             new ServiceFlag(
                 id: 'contract',
-                enabled: false,
+                enabled: $contract,
                 description: 'Service is a contract-type service (handled via contract flow/contract rules).',
             ),
         ]);

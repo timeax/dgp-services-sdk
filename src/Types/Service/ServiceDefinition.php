@@ -17,9 +17,9 @@ final readonly class ServiceDefinition implements Arrayable, JsonSerializable
         public float             $rate,         // keep as float for now (provider-centric); host can convert to Money
         public int               $min,
         public int               $max,
-        public ?string           $category = null,
+        public string            $category,
+        public ?ServiceFlagset   $flags = new ServiceFlagset([], true),
 
-        public ?ServiceFlagset   $flags = null,
         public ?ServiceEstimates $estimates = null,
 
         public ?array            $meta = null, // provider extras (bag)
