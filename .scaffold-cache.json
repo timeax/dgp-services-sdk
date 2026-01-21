@@ -1106,6 +1106,139 @@
       "sizeAtCreate": 0,
       "groupName": "default",
       "groupRoot": "."
+    },
+    "src/Types/Service/ServiceFlag.php": {
+      "path": "src/Types/Service/ServiceFlag.php",
+      "createdAt": "2026-01-21T02:21:06.894Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Service/ServiceFlagset.php": {
+      "path": "src/Types/Service/ServiceFlagset.php",
+      "createdAt": "2026-01-21T02:21:45.039Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Contract/ContractQuoteContract.php": {
+      "path": "src/Contracts/Contract/ContractQuoteContract.php",
+      "createdAt": "2026-01-21T02:50:20.390Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Contract/ContractCreateContract.php": {
+      "path": "src/Contracts/Contract/ContractCreateContract.php",
+      "createdAt": "2026-01-21T02:50:20.395Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Contract/ContractStatusContract.php": {
+      "path": "src/Contracts/Contract/ContractStatusContract.php",
+      "createdAt": "2026-01-21T02:50:20.402Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Contract/CreateContractRequest.php": {
+      "path": "src/Payloads/Requests/Contract/CreateContractRequest.php",
+      "createdAt": "2026-01-21T02:53:31.824Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Contract/GetContractStatusRequest.php": {
+      "path": "src/Payloads/Requests/Contract/GetContractStatusRequest.php",
+      "createdAt": "2026-01-21T02:53:31.825Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Contract/QuoteContractRequest.php": {
+      "path": "src/Payloads/Requests/Contract/QuoteContractRequest.php",
+      "createdAt": "2026-01-21T02:53:31.831Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Contract/CreateContractResponse.php": {
+      "path": "src/Payloads/Responses/Contract/CreateContractResponse.php",
+      "createdAt": "2026-01-21T02:53:31.841Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Contract/GetContractStatusResponse.php": {
+      "path": "src/Payloads/Responses/Contract/GetContractStatusResponse.php",
+      "createdAt": "2026-01-21T02:53:31.842Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Contract/QuoteContractResponse.php": {
+      "path": "src/Payloads/Responses/Contract/QuoteContractResponse.php",
+      "createdAt": "2026-01-21T02:53:31.844Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Contract/ContractRef.php": {
+      "path": "src/Types/Contract/ContractRef.php",
+      "createdAt": "2026-01-21T02:53:31.853Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Contract/ContractStatusCode.php": {
+      "path": "src/Types/Contract/ContractStatusCode.php",
+      "createdAt": "2026-01-21T02:53:31.854Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Contract/ContractQuoteRef.php": {
+      "path": "src/Types/Contract/ContractQuoteRef.php",
+      "createdAt": "2026-01-21T02:53:31.855Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Contract/ContractQuote.php": {
+      "path": "src/Types/Contract/ContractQuote.php",
+      "createdAt": "2026-01-21T02:53:31.856Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Contract/ContractStatus.php": {
+      "path": "src/Types/Contract/ContractStatus.php",
+      "createdAt": "2026-01-21T02:53:31.857Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Service/ServiceEstimates.php": {
+      "path": "src/Types/Service/ServiceEstimates.php",
+      "createdAt": "2026-01-21T03:14:20.404Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Service/TimeRangeEstimate.php": {
+      "path": "src/Types/Service/TimeRangeEstimate.php",
+      "createdAt": "2026-01-21T03:18:25.437Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Types/Service/SpeedEstimate.php": {
+      "path": "src/Types/Service/SpeedEstimate.php",
+      "createdAt": "2026-01-21T03:18:25.438Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
     }
   }
 }

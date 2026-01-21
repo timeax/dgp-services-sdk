@@ -12,13 +12,17 @@ final readonly class ServiceDefinition implements Arrayable, JsonSerializable
      * @param array<string, mixed>|null $meta
      */
     public function __construct(
-        public string  $id,          // provider service id
-        public string  $name,
-        public float   $rate,         // keep as float for now (provider-centric); host can convert to Money
-        public int     $min,
-        public int     $max,
-        public ?string $category = null,
-        public ?array  $meta = null, // provider extras (bag)
+        public string            $id,          // provider service id
+        public string            $name,
+        public float             $rate,         // keep as float for now (provider-centric); host can convert to Money
+        public int               $min,
+        public int               $max,
+        public ?string           $category = null,
+
+        public ?ServiceFlagset   $flags = null,
+        public ?ServiceEstimates $estimates = null,
+
+        public ?array            $meta = null, // provider extras (bag)
     )
     {
     }
@@ -32,6 +36,8 @@ final readonly class ServiceDefinition implements Arrayable, JsonSerializable
             'min' => $this->min,
             'max' => $this->max,
             'category' => $this->category,
+            'flags' => $this->flags?->toArray(),
+            'estimates' => $this->estimates?->toArray(),
             'meta' => $this->meta,
         ], static fn($v) => $v !== null);
     }
