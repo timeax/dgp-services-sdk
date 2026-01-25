@@ -39,6 +39,9 @@ src/
     Bulk/
       BulkOrderCreateContract.php // OPTIONAL: bulk create
       BulkOrderStatusContract.php // OPTIONAL: bulk status
+      BulkOrderCancelContract.php
+      BulkRefillCreateContract.php
+      BulkRefillStatusContract.php
 
     Subscription/
       SubscriptionContract.php // OPTIONAL: subscription lifecycle
@@ -95,6 +98,9 @@ src/
       Bulk/
         BulkCreateOrdersRequest.php
         BulkGetOrderStatusRequest.php
+        BulkCancelOrdersRequest.php
+        BulkCreateRefillsRequest.php
+        BulkGetRefillStatusRequest.php
 
       Subscription/
         CreateSubscriptionRequest.php
@@ -149,6 +155,9 @@ src/
       Bulk/
         BulkCreateOrdersResponse.php
         BulkGetOrderStatusResponse.php
+        BulkCancelOrdersResponse.php
+        BulkCreateRefillsResponse.php
+        BulkGetRefillStatusResponse.php
 
       Subscription/
         CreateSubscriptionResponse.php
@@ -189,6 +198,9 @@ src/
     Bulk/
       BulkCreateOrderResult.php
       BulkOrderStatusResult.php
+      BulkCancelOrderResult.php
+      BulkCreateRefillResult.php
+      BulkRefillStatusResult.php
 
     Service/
       ServiceDefinition.php // raw baseline service item (strict core + meta bag)
