@@ -813,13 +813,6 @@
       "groupName": "default",
       "groupRoot": "."
     },
-    "src/Contracts/Catalog/ServiceSchemaContract.php": {
-      "path": "src/Contracts/Catalog/ServiceSchemaContract.php",
-      "createdAt": "2026-01-02T04:12:21.530Z",
-      "sizeAtCreate": 0,
-      "groupName": "default",
-      "groupRoot": "."
-    },
     "src/Contracts/Balance/BalanceContract.php": {
       "path": "src/Contracts/Balance/BalanceContract.php",
       "createdAt": "2026-01-02T04:12:21.533Z",
@@ -1334,6 +1327,27 @@
     "src/Types/Bulk/BulkRefillStatusResult.php": {
       "path": "src/Types/Bulk/BulkRefillStatusResult.php",
       "createdAt": "2026-01-25T04:25:48.744Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Catalog/ServiceSchemaCatalogContract.php": {
+      "path": "src/Contracts/Catalog/ServiceSchemaCatalogContract.php",
+      "createdAt": "2026-01-25T08:12:44.842Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Requests/Catalog/GetServiceSchemaCatalogRequest.php": {
+      "path": "src/Payloads/Requests/Catalog/GetServiceSchemaCatalogRequest.php",
+      "createdAt": "2026-01-25T08:14:02.583Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Responses/Catalog/GetServiceSchemaCatalogResponse.php": {
+      "path": "src/Payloads/Responses/Catalog/GetServiceSchemaCatalogResponse.php",
+      "createdAt": "2026-01-25T08:14:02.590Z",
       "sizeAtCreate": 0,
       "groupName": "default",
       "groupRoot": "."

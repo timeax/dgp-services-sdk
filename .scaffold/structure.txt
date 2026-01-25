@@ -17,7 +17,7 @@ src/
       OperationInputSchemaContract.php
       ServicesCatalogContract.php // CORE (MUST): raw service catalog (Lane A)
       ServiceInputSchemaContract.php // OPTIONAL: minimal per-service input schema (Host still normalizes)
-      ServiceSchemaContract.php // OPTIONAL/ADVANCED: pre-normalized ServiceProps (Lane B fast lane)
+      ServiceSchemaCatalogContract.php // OPTIONAL/ADVANCED: pre-normalized ServiceProps (Lane B fast lane)
 
     Orders/
       OrderCreateContract.php // CORE (MUST): place order
@@ -77,6 +77,7 @@ src/
         GetServiceSchemaSnapshotRequest.php
         GetServiceSchemaForServiceRequest.php
         GetOperationInputSchemaRequest.php
+        GetServiceSchemaCatalogRequest.php
 
       Contract/
         CreateContractRequest.php
@@ -134,6 +135,7 @@ src/
         GetServiceSchemaSnapshotResponse.php
         GetServiceSchemaForServiceResponse.php
         GetOperationInputSchemaResponse.php
+        GetServiceSchemaCatalogResponse.php
 
       Orders/
         CreateOrderResponse.php
