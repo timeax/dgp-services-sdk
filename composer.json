@@ -15,7 +15,8 @@
   },
   "autoload": {
     "psr-4": {
-      "Dgp\\Sdk\\": "src/"
+      "Dgp\\Sdk\\": "src/",
+      "Dgp\\Sdk\\Sample\\": "samples/"
     }
   }
 }

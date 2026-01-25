@@ -1,0 +1,73 @@
+{
+  "version": 3.1,
+  "$schema": "https://raw.githubusercontent.com/emxhive/prodex/main/schema/prodex.schema.json",
+  "output": {
+    "dir": "prodex",
+    "versioned": true,
+    "prefix": "combined",
+    "format": "md"
+  },
+  "entry": {
+    "files": [],
+    "ui": {
+      "roots": [
+        "app",
+        "routes",
+        "resources/js/**"
+      ],
+      "scanDepth": 2,
+      "priority": [
+        "**/routes/web.php",
+        "**/app.*"
+      ]
+    }
+  },
+  "resolve": {
+    "include": [
+      "**/*.d.ts"
+    ],
+    "aliases": {
+      "@": "resources/js"
+    },
+    "exclude": [
+      "node_modules/**",
+      "@shadcn/**",
+      "**/components/ui/**"
+    ],
+    "depth": 10,
+    "limit": 200
+  },
+  "shortcuts": {
+    "contracts": {
+      "include": [
+        "src/Contracts/**"
+      ]
+    },
+    "drivers": {
+      "include": [
+        "src/Driver/**"
+      ]
+    },
+    "payloads": {
+      "include": [
+        "src/Payloads/**"
+      ]
+    },
+    "support": {
+      "include": [
+        "src/Support/**"
+      ]
+    },
+    "types": {
+      "include": [
+        "src/Types/**"
+      ]
+    },
+    "app": {
+      "include": [
+        "src/Dgp.php",
+        "src/DgpSdkServiceProvider.php"
+      ]
+    }
+  }
+}

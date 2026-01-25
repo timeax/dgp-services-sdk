@@ -1,5 +1,5 @@
 src/
-  DgpSdk.php
+  Dgp.php
   DgpSdkServiceProvider.php
 
   Driver/
@@ -10,6 +10,9 @@ src/
     AbstractServiceDriver.php // base class: core helpers + HealthCheck default
 
   Contracts/
+    Driver/
+      DriverLinkContract.php
+
     Catalog/
       OperationInputSchemaContract.php
       ServicesCatalogContract.php // CORE (MUST): raw service catalog (Lane A)
@@ -63,6 +66,7 @@ src/
   Payloads/
     Common/
       ProviderConfig.php
+      DriverRegistration.php
     Requests/
       Catalog/
         ListServicesRequest.php

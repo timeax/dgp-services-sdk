@@ -1,13 +1,6 @@
 {
   "version": 1,
   "entries": {
-    "src/DgpSdk.php": {
-      "path": "src/DgpSdk.php",
-      "createdAt": "2026-01-02T02:01:26.365Z",
-      "sizeAtCreate": 0,
-      "groupName": "default",
-      "groupRoot": "."
-    },
     "src/DgpSdkServiceProvider.php": {
       "path": "src/DgpSdkServiceProvider.php",
       "createdAt": "2026-01-02T02:01:26.369Z",
@@ -1236,6 +1229,27 @@
     "src/Types/Service/SpeedEstimate.php": {
       "path": "src/Types/Service/SpeedEstimate.php",
       "createdAt": "2026-01-21T03:18:25.438Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Contracts/Driver/DriverLinkContract.php": {
+      "path": "src/Contracts/Driver/DriverLinkContract.php",
+      "createdAt": "2026-01-25T02:23:00.087Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Payloads/Common/DriverRegistration.php": {
+      "path": "src/Payloads/Common/DriverRegistration.php",
+      "createdAt": "2026-01-25T02:23:00.094Z",
+      "sizeAtCreate": 0,
+      "groupName": "default",
+      "groupRoot": "."
+    },
+    "src/Dgp.php": {
+      "path": "src/Dgp.php",
+      "createdAt": "2026-01-25T02:24:39.794Z",
       "sizeAtCreate": 0,
       "groupName": "default",
       "groupRoot": "."
