@@ -12,12 +12,15 @@ use Dgp\Sdk\Payloads\Requests\Ops\HealthCheckRequest;
 use Dgp\Sdk\Payloads\Responses\Ops\HealthCheckResponse;
 use Dgp\Sdk\Types\Ops\HealthState;
 use Dgp\Sdk\Support\Exceptions\RateLimitedException;
+use Timeax\ConfigSchema\Contracts\ProvidesConfigSchema;
 
-abstract readonly class AbstractServiceDriver implements HealthCheckContract
+abstract readonly class AbstractServiceDriver implements HealthCheckContract, ProvidesConfigSchema
 {
     public function __construct(
         protected DriverContext $context,
-    ) {}
+    )
+    {
+    }
 
     protected function ok(mixed $value): Result
     {

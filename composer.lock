@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5d2ad6de04a454e9198e682b38126f3b",
+    "content-hash": "d4c1572798c890a6d9d04cd3af740343",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -1329,6 +1329,43 @@
                 }
             ],
             "time": "2025-07-15T13:41:35+00:00"
+        },
+        {
+            "name": "timeax/ui-config-schema",
+            "version": "v0.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/timeax/ui-config-schema.git",
+                "reference": "baf347b74d655e98e4f0a6d653aed60eb8fafa36"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/timeax/ui-config-schema/zipball/baf347b74d655e98e4f0a6d653aed60eb8fafa36",
+                "reference": "baf347b74d655e98e4f0a6d653aed60eb8fafa36",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Timeax\\ConfigSchema\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Okpako",
+                    "email": "timmyokpako@gmail.com"
+                }
+            ],
+            "description": "SDK config schema designed to provide a general shape for Input field configurations",
+            "support": {
+                "issues": "https://github.com/timeax/ui-config-schema/issues",
+                "source": "https://github.com/timeax/ui-config-schema/tree/v0.0.2"
+            },
+            "time": "2026-01-27T04:30:59+00:00"
         },
         {
             "name": "voku/portable-ascii",
